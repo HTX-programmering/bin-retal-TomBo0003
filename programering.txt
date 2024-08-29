@@ -5,3 +5,12 @@ Det første bit i en byte, fortæller om en byte er lige eller ulige, så hvis d
 Der findes også posetive og negative tal, dette kan bestemes ved the most significant bit, altså det helt til venstre. og dette giver en range fra 127-(-128).
 
 Opgave:
+
+V1 = kl. 1
+V2 = kl. 2
+V3 = kl. 4
+V4 = kl. 8
+
+kl. 3 = V1 & V2
+kl. 5 = V1 & V3'
+kl. 10 = V2 & V4
