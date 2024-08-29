@@ -1,0 +1,7 @@
+Referat:
+Vi i hverdagen bruger 10 tals sytemet, som representeres af tal fra 0-9. hvorimod computere bruger 2 tals systemet, som representeres af tal fra 0-1. Dette er pga. computere er digitale og kan kun reprecentere en verdi som at være sand eller falsk. Det er her hvor bytes kommer ind som er en rekke af bits, i moderen computere typisk 8 bits for 1 byte. dette kan reprecentere mere complekse tal hvor hver bit i en byte er en udvikling af det forige tal med en faktor af 2^(x-1), så hvis vi er på bit 3 ville den reprecentere 2^(3-1)= 4.
+Der er dog ulemper med at der kun kan reprecenteres i bytes, det betyder der er en maximal verdi som er, (2^(8-1) + 2^(7-1) + 2^(6-1) + ...)-1= 255, så den maksimale verdi er 255 da 0 også gelder
+Det første bit i en byte, fortæller om en byte er lige eller ulige, så hvis den er 0 = lige, 1 = ulige.
+Der findes også posetive og negative tal, dette kan bestemes ved the most significant bit, altså det helt til venstre. og dette giver en range fra 127-(-128).
+
+Opgave:
